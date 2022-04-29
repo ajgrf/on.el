@@ -1,0 +1,14 @@
+#+TITLE: on.el -- utility hooks and functions from Doom Emacs
+
+This package exposes a number of utility hooks and functions ported
+from Doom Emacs. The hooks make it easier to speed up Emacs startup
+by providing finer-grained control of the timing at which packages
+are loaded.
+
+For example, =use-package= users can delay loading the =which-key=
+package until the first key is pressed:
+
+#+BEGIN_SRC emacs-lisp
+(use-package which-key
+  :hook (on-first-input . which-key-mode))
+#+END_SRC
