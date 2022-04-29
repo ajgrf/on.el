@@ -12,3 +12,6 @@ package until the first key is pressed:
 (use-package which-key
   :hook (on-first-input . which-key-mode))
 #+END_SRC
+
+In addition to =on-first-input-hook=, =on.el= also provides
+=on-first-file-hook= and =on-first-buffer-hook=.
