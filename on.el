@@ -138,7 +138,7 @@ triggering hooks during startup."
 (add-hook 'window-buffer-change-functions #'on-init-ui-h -100)
 
 (unless noninteractive
-  (on-run-hook-on 'on-first-buffer-hook '(find-file-hook))
+  (on-run-hook-on 'on-first-buffer-hook '(find-file-hook on-switch-buffer-hook))
   (on-run-hook-on 'on-first-file-hook   '(find-file-hook dired-initial-position-hook))
   (on-run-hook-on 'on-first-input-hook  '(pre-command-hook)))
 
