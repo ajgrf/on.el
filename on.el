@@ -6,7 +6,7 @@
 ;; Maintainer: Alex Griffin <a@ajgrf.com>
 ;; Version: 0.1.0
 ;; Keywords: convenience
-;; Homepage: https://github.com/ajgrf/on.el
+;; Homepage: https://gitlab.com/ajgrf/on.el
 ;; Package-Requires: ((emacs "27.1"))
 ;;
 ;; This file is not part of GNU Emacs.
